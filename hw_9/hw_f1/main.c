@@ -20,13 +20,6 @@ void sort_array(int size, int a[]) {
             break;
         }
     }
-
-    int m = 0;
-    while (m < size) {
-        printf("%d ", a[m]);
-        m++;
-    }
-    printf("\n");
 }
 
 int main() 
